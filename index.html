@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/icon-font.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>bilbil | Bilgi Yarışması</title>
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- loader -->
+      <div class="loader">
+        <!-- version -->
+        <div class="app-version">v1.0.0</div>
+      </div>
+      <!-- welcome page -->
+      <div class="welcome-page">
+        <!-- welcome page content -->
+        <div class="welcome-page-content">
+          <!-- logo -->
+          <div class="logo">
+            <img src="assets/img/logo-bilbil.svg" alt="Logo bilbil" />
+          </div>
+          <!-- start play button -->
+          <button type="button" id="start-play">
+            <i class="icon-play"></i>
+          </button>
+          <!-- menu -->
+          <nav class="menu">
+            <ul>
+              <li onclick="openModal('howToPlay')">Nasıl Oynanır?</li>
+            </ul>
+          </nav>
+        </div>
+        <!-- welcome page footer -->
+        <div class="welcome-page-footer">
+          <!-- social media -->
+          <ul class="social-media">
+            <li>
+              <a href="#" target="_blank" rel="noopener">
+                <i class="icon-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener">
+                <i class="icon-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener">
+                <i class="icon-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- questions page -->
+      <div class="questions-page">
+        <div class="questions-page-top">
+          <!-- go back button -->
+          <button type="button" class="go-back">
+            <i class="icon-left-arrow"></i>
+          </button>
+          <!-- countdown -->
+          <div class="question-countdown"></div>
+          <!-- score -->
+          <div class="score">
+            <i class="icon-star"></i>
+            <!-- score content -->
+            <div class="score-content"></div>
+          </div>
+        </div>
+        <!-- questions -->
+        <div class="questions-wrapper">
+          <div class="swiper-container questions-container">
+            <div class="swiper-wrapper" id="questions"></div>
+          </div>
+        </div>
+        <!-- options -->
+        <ul class="options">
+          <li class="option-fifty-fifty">
+            <i class="icon-percent"></i>
+            Yarı yarıya
+          </li>
+          <li class="option-pass">
+            <i class="icon-right-arrow"></i>
+            Pas geç
+          </li>
+        </ul>
+      </div>
+      <!-- end game page -->
+      <div class="end-game-page">
+        <div class="end-game">
+          <div class="end-game-top">
+            <!-- score -->
+            <div class="end-game-score"></div>
+            <!-- icon -->
+            <div class="end-game-icon">
+              <i></i>
+            </div>
+          </div>
+          <!-- text -->
+          <div class="end-game-text">
+            <!-- title -->
+            <div class="end-game-title"></div>
+            <!-- correct answer -->
+            <div class="correct-answer"></div>
+          </div>
+          <!-- buttons -->
+          <div class="end-game-buttons">
+            <!-- go home -->
+            <button type="button" class="go-home">
+              <i class="icon-home"></i>
+            </button>
+            <!-- again play -->
+            <button type="button" class="again-play">
+              <i class="icon-again-play"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- custom modal -->
+      <div class="custom-modal">
+        <!-- modal content -->
+        <div class="custom-modal-content" id="howToPlay">
+          <!-- close button -->
+          <button
+            type="button"
+            class="close-modal-button"
+            onclick="closeModal('howToPlay')"
+          >
+            <i class="icon-close"></i>
+          </button>
+          <!-- title -->
+          <div class="custom-modal-title">Nasıl Oynanır?</div>
+          <!-- text -->
+          <div class="custom-modal-text">
+            <p>Oyunumuzda toplam 2 joker bulunmaktadır.</p>
+            <p>"50%" ve "Pas Geç".</p>
+            <p>
+              "50%" jokeri ile yanlış şıklardan 2 tanesi silinerek, 2 şık geriye
+              bırakılır.
+            </p>
+            <p>"Pas Geç" jokeri ile soru pas geçilir.</p>
+            <p>
+              Jokerleri soru sayfasının altında bulunan butonlarla
+              kullanabilirsiniz.
+            </p>
+            <p>Her yarışmada jokerler sadece 1 kere kullanılabilir.</p>
+            <p>İyi eğlenceler...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/lib/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

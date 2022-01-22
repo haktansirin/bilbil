@@ -1,0 +1,124 @@
+{
+    "questions": [
+        {
+            "title": "Mehmet Akif İstiklal Marşını nerede yazmıştır?",
+            "answers": [
+                "Ankara - Ayasofya",
+                "Ankara - Keçiören Camisi",
+                "Ankara - Ayaş Dergahı",
+                "Ankara - Taceddin Dergahı"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "title": "Türkiye'nin ilk Safari Parkı hangi ilimizde açılmıştır?",
+            "answers": [
+                "Mersin",
+                "İzmir",
+                "Gaziantep",
+                "Konya"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "title": "Türkiye'nin en büyük kış ve doğa sporları merkezi olan Uludağ'ın eski adı nedir?",
+            "answers": [
+                "Keşiş Dağı",
+                "Ulu Kuş Dağı",
+                "Buz Dağ",
+                "Yeşil Dağ"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "title": "Birleşmiş Milletler Dünya Turizm Örgütü'nün kısa adı hangisidir?",
+            "answers": [
+                "UNOWT",
+                "UWT",
+                "WTO",
+                "UNWTO"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "title": "Büyük bir Destan olan 'BÜLBÜL' hangi ilimizin işgali üzerine yazılmıştır?",
+            "answers": [
+                "İzmir",
+                "Adana",
+                "Bursa",
+                "Bolu"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "title": "Türkiye'de e-devlet uygulaması hangi tarihte yürürlüğe girmiştir?",
+            "answers": [
+                "2011",
+                "2010",
+                "2006",
+                "2008"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "title": "Hangi tarihte güney yarımkürede en uzun gündüz yaşanır?",
+            "answers": [
+                "21 Mart",
+                "21 Haziran",
+                "23 Eylül",
+                "21 Aralık"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "title": "Hangisi bir Aşık Veysel türküsü değildir?",
+            "answers": [
+                "Kara toprak",
+                "Yazımı kışa çevirdin",
+                "Uzun ince bir yoldayım",
+                "Güzelliğin on para etmez"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "title": "Hangi Türk filmi Oscar aday adayı olmamıştır?",
+            "answers": [
+                "Tabutta Rövaşata",
+                "Sivas",
+                "Mavi Sürgün",
+                "Manisa Tarzanı"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "title": "Hangi filozof, İdealar Kuramının kurucusudur?",
+            "answers": [
+                "Aristotales",
+                "Sokrates",
+                "Epikuros",
+                "Platon"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "title": "Atomun parçalanabileceğini ilk öne suren bilim insanı kimdir?",
+            "answers": [
+                "Cabir Bin Hayyan",
+                "Bohr",
+                "Rudolf",
+                "Ibni Rust"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "title": "Türkiye G20'ye hangi yıl katılmıştır?",
+            "answers": [
+                "2002",
+                "1999",
+                "2000",
+                "2004"
+            ],
+            "correctIndex": 1
+        }
+    ]
+}

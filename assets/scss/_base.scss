@@ -1,0 +1,41 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: $text-color;
+  font-family: $font-family;
+  @media (min-width: 568px) {
+    @include center();
+    height: 100vh;
+    background-color: $primary-color;
+    overflow: hidden;
+  }
+}
+
+ol,
+ul {
+  margin-bottom: 0;
+}
+
+a {
+  color: $text-color;
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+select,
+input,
+textarea,
+button {
+  border: none;
+  background-color: transparent;
+  &:focus {
+    outline: none;
+  }
+}

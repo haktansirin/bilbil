@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "bilbil";
+  src: url("../fonts/iconfonts/bilbil.eot?8r5si1");
+  src: url("../fonts/iconfonts/bilbil.eot?8r5si1#iefix")
+      format("embedded-opentype"),
+    url("../fonts/iconfonts/bilbil.ttf?8r5si1") format("truetype"),
+    url("../fonts/iconfonts/bilbil.woff?8r5si1") format("woff"),
+    url("../fonts/iconfonts/bilbil.svg?8r5si1#bilbil") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "bilbil" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-percent:before {
+  content: "\e910";
+}
+.icon-wrong:before {
+  content: "\e90b";
+}
+.icon-again-play:before {
+  content: "\e90a";
+}
+.icon-star:before {
+  content: "\e908";
+}
+.icon-users:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e905";
+}
+.icon-right-arrow:before {
+  content: "\e90f";
+}
+.icon-winner:before {
+  content: "\e90d";
+}
+.icon-hourglass:before {
+  content: "\e90c";
+}
+.icon-home:before {
+  content: "\e909";
+}
+.icon-left-arrow:before {
+  content: "\e907";
+}
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-play:before {
+  content: "\e903";
+}
